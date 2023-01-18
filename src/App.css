@@ -1,0 +1,525 @@
+/* body{
+  background-color: black;
+} */
+html {
+  background-color: #212529;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #797777;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
+}
+.homescreen {
+  overflow: hidden;
+  width: 100vw;
+  padding-left: 0%;
+  padding-top: 1%;
+  padding-right: 0%;
+  font-size: 4vw;
+}
+.homescreen img {
+  height: 10vw;
+}
+.homebg {
+  background-color: transparent;
+  position: absolute;
+  overflow: hidden;
+}
+.vediohome {
+  width: 76vw;
+  height: 4vw;
+  background-color: transparent;
+  position: fixed;
+  overflow: hidden;
+}
+.homebg video {
+  width: 77vw;
+  border-radius: 3%;
+}
+.homebg iframe {
+  width: 76.4vw;
+  height: 43.1vw;
+  display: block;
+  border-radius: 3%;
+  border-width: 0;
+}
+.close {
+  width: 25px;
+  height: 25px;
+  opacity: 0.6;
+  border-radius: 50px;
+  border-width: 0px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.homevedio {
+  position: relative;
+  overflow: hidden;
+}
+.infoi button {
+  width: 3vw;
+  height: 3vw;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #0c0b0b;
+  color: #b6b6b6;
+}
+.bib p {
+  font-size: 2vw;
+}
+.bib h1 {
+  font-size: 3vw;
+}
+.bib h2 {
+  font-size: 2.5vw;
+}
+.bib h3 {
+  text-align: left;
+  font-size: 1.5vw;
+}
+.bib img {
+  width: 100%;
+}
+.bib td {
+  padding: 0.3vw;
+}
+.popupevent p {
+  font-size: 2vw;
+  line-height: 1.3;
+}
+.popupevent h1 {
+  font-size: 2.5vw;
+}
+.popupevent h2 {
+  font-size: 2vw;
+}
+
+.popupevent img {
+  width: 100%;
+}
+.news p {
+  font-size: 2vw;
+}
+.news h1 {
+  font-size: 3vw;
+}
+.news h2 {
+  font-size: 2.5vw;
+}
+.news h3 {
+  text-align: left;
+  font-size: 1.5vw;
+}
+.news img {
+  width: 100%;
+}
+.news td {
+  padding: 0.3vw;
+}
+.jobs p {
+  font-size: 2vw;
+}
+.jobs h1 {
+  font-size: 3vw;
+}
+.jobs h2 {
+  font-size: 2.5vw;
+}
+.jobs h3 {
+  text-align: left;
+  font-size: 1.5vw;
+}
+.jobs img {
+  height: 80%;
+  width: 80%;
+}
+.jobs td {
+  padding: 0.3vw;
+}
+.datecard h1 {
+  font-size: medium;
+}
+.timecontainer {
+  font-size: 5vw;
+  width: 100%;
+}
+.timecontainer h1 {
+  font-size: 3vw;
+}
+.newscontainer {
+  width: 400px;
+}
+.clockcard {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    360deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(3, 3, 3, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(130, 127, 123, 1) 87%
+  );
+}
+.clockcard2 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    360deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(3, 3, 3, 1) 0%,
+    rgba(147, 145, 145, 1) 0%,
+    rgba(242, 236, 236, 1) 43%,
+    rgba(255, 253, 253, 1) 100%
+  );
+}
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.eventcard {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    360deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(3, 3, 3, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(130, 127, 123, 1) 87%
+  );
+}
+.eventcard h1 {
+  font-size: 2vw;
+}
+.clockcard h1 {
+  font-size: 25px;
+}
+.clockcard2 h1 {
+  font-size: 25px;
+  color: black;
+}
+.shopp {
+  overflow-x: hidden;
+  width: 100%;
+  position: fixed;
+}
+.maincontent {
+  padding-top: 25%;
+  overflow-x: hidden;
+}
+.shoplogo {
+  padding-right: 5%;
+}
+.shoplogo img {
+  width: 25vw;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+input {
+  width: 80%;
+  height: 40px;
+  font-size: x-large;
+  border-radius: 20px;
+  border-width: 0;
+  text-align: center;
+}
+.cls-1 {
+  fill: gray;
+  stroke: white;
+  stroke-width: 8px;
+}
+.cls-2,
+.cls-3,
+.cls-4 {
+  fill: none;
+  stroke: white;
+}
+.cls-5 {
+  fill: white;
+}
+.buchenbutton {
+  width: 40%;
+  height: 40px;
+  font-size: xx-large;
+  border-radius: 20px;
+  background-color: #157347;
+  color: white;
+  border-width: 0;
+  text-align: center;
+}
+input::placeholder {
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: gray;
+}
+.App {
+  text-align: center;
+}
+.touch_keyboard {
+  position: fixed;
+  bottom: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 98%;
+}
+.homesite {
+  align-items: center;
+  text-align: center;
+}
+.key-content {
+  margin: auto;
+  background: transparent;
+  width: 100%;
+}
+.layoutrow {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(2, 0fr);
+  text-align: center;
+  align-items: center;
+}
+.layoutcol {
+  grid-template-rows: repeat(2, 0fr);
+  grid-template-columns: repeat(2, 0fr);
+  gap: 0px;
+}
+.layoutcol p {
+  font-size: large;
+  width: 18em;
+  text-align: center;
+}
+.card-content {
+  background: #157347;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.9;
+  width: 60%;
+  border-radius: 20px;
+}
+.fc-timegrid-slot-label-cushion {
+  color: #ffffff;
+}
+.fc-scrollgrid-sync-inner {
+  color: white;
+}
+.fc-toolbar-title {
+  font-weight: bold;
+  color: white;
+}
+.fc-timegrid-axis-cushion {
+  color: white;
+  text-decoration: none;
+}
+.fc-theme-bootstrap5 {
+  color: white;
+}
+.fc-timegrid-event-harness > .fc-timegrid-event {
+  background-color: rgb(91, 88, 88);
+  border: 1px solid #e8ebee;
+}
+.fc-col-header-cell-cushion {
+  color: white;
+  text-decoration: none;
+}
+.newscard-content {
+  background: #212529;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+.eventscard-content {
+  background: #212529bc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: auto;
+  border-radius: 5px;
+}
+.shopcard-content {
+  background: #585858;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  width: 90%;
+  border-radius: 5px;
+}
+.loadingcentered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+.salecard-content {
+  background: #585858;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  width: 90%;
+  border-radius: 5px;
+}
+.shoppcard-content {
+  background: #212529;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  width: 80%;
+  border-radius: 5px;
+}
+.popup-overlay {
+  backdrop-filter: blur(12px);
+}
+.popupnews h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.popupnews h3 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.popupnews p {
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+}
+.popupnews img {
+  border-radius: 2%;
+}
+.popupshop h1 {
+  font-size: 2vw;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.popupshop h3 {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.popupshop p {
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
+}
+.popupshop img {
+  border-radius: 2%;
+}
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.fc-v-event .fc-event-title {
+  font-size: 1.5vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.examcard {
+  width: 100%;
+  opacity: 0.6;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 600px) {
+  .homebg video {
+    width: 95vw;
+    border-radius: 3%;
+  }
+  .infoi button {
+    width: 4vw;
+    height: 4vw;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #0c0b0b;
+    color: #b6b6b6;
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .homescreen {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .homescreen {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .homescreen {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 2vw;
+  }
+}
